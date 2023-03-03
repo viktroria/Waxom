@@ -1,0 +1,370 @@
+.menu [type="checkbox"]{
+	display: none;
+}
+.menu label.toggleMenu{
+	display: none;
+	padding: 23px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	cursor: pointer;
+	position: relative;
+}
+.menu label.toggleMenu .fa{
+	position: absolute;
+	top: 15px;
+	right: 12px;
+	font-size: 30px;
+	color: #fff;
+}
+/*-----------------------1200px-----------------------------*/
+@media screen and (max-width: 1200px) {
+	.header .menu a{
+		font-size: 12px;
+		margin-left: 20px;
+	}
+	.header .shop a{
+		font-size: 12px;
+		margin-right: 10px;
+	}
+	section .paragraph{
+		margin-top: 90px;
+		font-size: 14px;	
+	}
+	header .paragraph .h1{
+		font-size: 40px;
+	}
+	header .paragraph .h2{
+		font-size: 26px;
+	}
+	header .left{
+		margin-top: 145px;
+	}
+	header .right{
+		margin-top: 145px;
+	}
+	section.devices .flex_box .text .item li {
+		margin-left: 10px;
+	}
+	section.client .logo{
+		text-align: center;
+	}
+	section.client .logo img {
+		margin-left: 25px;
+		width: 180px;
+	}
+	section.client .logo {
+    margin: 40px auto 40px;
+	}
+	section .gradient .left h3{
+		font-size: 25px;
+	}
+	section .gradient .right .btn{
+		margin: 44% auto;
+	}
+	section.latest_progekt .button{
+		margin: 50px 0 100px;
+	}
+	section.video .text{
+		margin: 120px auto 70px; 
+	}
+	section.posts .custom_container{
+		display: block;
+		margin: 0 auto;
+	}
+	section.posts .custom_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+/*-----------------------1199px-----------------------------*/
+@media screen and (max-width: 1199px) {
+
+}
+/*-----------------------991px-----------------------------*/
+@media screen and (max-width: 991px) {
+	
+}
+/*-----------------------768px-----------------------------*/
+@media screen and (max-width: 768px) {
+	section.posts .text .h4{
+		font-size: 26px;
+	}
+	.p{
+		font-size: 12px;
+	}
+	.head{
+		margin: 0;
+		padding: 0;
+	}
+	header .menu{
+		margin-top: -50px;
+		overflow: hidden;
+	}
+	.menu a{
+		text-transform: uppercase;
+		font-size: 50px;
+		text-align: center;
+		display: block;
+		max-height: 0;
+		transition: max-height 0.3s;
+	}
+	.menu a.link{
+		font-size: 18px;
+		line-height: 40px;
+		background-color:rgba(0,0,0,0.6);
+	}
+	header .shop{
+		display: none;
+	}
+	header .shop-mobille{
+		display: flex;
+		font-size: 18px;
+		color: #fff;
+		padding: 10px 13px;
+	}
+	.shop-mobille a i.fas{
+		color: #fff;
+	}
+	.shop-mobille a i.fas:hover{
+		color: #C7B299;
+	}
+	.menu label.toggleMenu{
+		display: block;
+		margin-bottom: 50px;
+
+	}
+	input.toggleMenu:checked + label.toggleMenu{
+		color: #fff;
+	}
+	input.toggleMenu:checked + .paragraph, .left, .right, .btn, .doted{
+		opacity: 0;
+	}
+	input.toggleMenu:checked ~ a{
+		display: block;
+		max-height: 5000px;
+		transition: max-height 5s ease-in;
+		margin-bottom: 15px;
+		margin-left: auto;
+		font-size: 16px;
+	}
+	section.about .custom_container h4{
+		font-size: 	18px;
+	}
+	section.about .custom i.fas{
+		font-size: 30px;
+	}
+	header .paragraph{
+		margin-top: 95px;
+	}
+	header .left {
+		display: none;
+	}
+	section .gradient .grad_right .grad_btn{
+		margin: 50% auto;
+		padding: 9px;
+	}
+	section .gradient h3{
+		font-size: 26px;
+	}
+	section .gradient p{
+		font-size: 12px;
+	}
+	section.latest_progekt a .btn {
+    	margin-left: 5px;
+    	font-size: 12px;
+	}
+	section.latest_progekt a .btn_category{
+		padding: 8px;
+	}
+	section.devices .flex_box .text {
+    margin-top: 80px;
+	}
+	section.devices .text p, li{
+		font-size: 12px;
+	}
+	section.devices .flex_box .text .item li{
+		line-height: 20px;	
+	}
+	section.devices .flex_box .text .item li span {
+    	margin-left: 10px;
+	}
+	section.devices .flex_box .text .item li i.fas{
+		padding: 4px 7px;
+	}
+	section.client .logo{
+		text-align: center;
+		margin: 40px;
+	}
+	section.client .logo img {
+		margin-right: 40px;
+    	width: 100px;
+    	margin-left: 0;
+	}
+	footer.footer .fotter_box p {
+    font-size: 12px;
+	}
+	footer.footer .fotter_box a {
+    font-size: 10px;
+	}
+	footer.footer .boxed .h4{
+		font-size: 18px;
+	}
+	footer.footer .footer_box .h4{
+		font-size: 18px;
+	}
+	footer.footer .fotter_box img {
+		width: 130px;
+    	margin: 99px 0 13px;
+	}
+	footer.footer .bottom .footer_p{
+		font-size: 12px;
+	}
+	section.about .custom{
+		margin-bottom: 200px;
+	}
+	section.progress_bar .col-fourth i.fas{
+		font-size: 30px;
+	}
+	section.progress_bar .col-fourth h2{
+		font-size: 36px;
+	}
+	section.progress_bar .col-fourth p{
+		font-size: 12px;
+	}
+	section.progress_bar .col-fourth .line{
+		height: 1px;
+	}
+}
+/*----------------------575px----------------------*/
+@media screen and (max-width: 575px) {
+	.h1{
+		font-size: 28px;
+	}
+	.h4{
+		margin-bottom: 40px;
+	}
+	.menu label.toggleMenu .fa {
+    font-size: 25px;
+	}
+	header .head a img{
+		width: 140px;
+	}
+	header .paragraph{
+		max-width: 100%;
+		padding-left: 15px;
+	}
+	header .paragraph .h2{
+		font-size: 18px;
+	}
+	input.toggleMenu:checked + label.toggleMenu{
+		margin-bottom: 140px;
+	}
+	header .shop-mobille a i.fas{
+		font-size: 15px;
+	}
+	section.about .custom{
+		margin: 50px auto 50px;
+	}
+	section.about .custom:first-child{
+		margin-top: 0;
+	}
+	section.about .custom_container{
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	section.about .custom_center h4{
+		margin-top: 130px;
+	}
+	section.about .gradient .container{
+		flex-direction: column;
+		text-align: center;
+	}
+	section .gradient .grad_left{
+		margin-bottom: 0;
+	}
+	section .gradient .grad_right .grad_btn{
+		margin: 30px auto 40px;
+	}
+	section.latest_progekt .text .h4{
+		margin-bottom: 40px;
+	}
+	section.latest_progekt a .btn_category{
+		margin-bottom: 15px;
+	}
+	section.latest_progekt .custom_container .custom{
+		margin-top: 30px;
+	}
+	section.devices .flex_box .img_container{
+		display: none;
+	}
+	section.devices .flex_box .text h5{
+		text-align: center;
+	}
+	section.devices .flex_box .text .item li{
+		font-size: 11px;
+		margin-top: 25px;
+	}
+	section.devices .flex_box .text .item i.fas{
+		width: 15px;
+		height: 15px;
+	}
+	section.devices .flex_box .text .item li i.fas{
+		padding: 2px 5px;
+		font-size: 10px;
+	}
+	section.progress_bar{
+		margin-top: 25px;
+	}
+	section.progress_bar .col-fourth{
+		width: 50%;
+		margin: 50px auto 0;
+	}
+	section.progress_bar .mobille-column{
+		flex-direction: column;
+	}
+	section.progress_bar .end {
+		margin: 0 auto 50px;
+	}
+	section.progress_bar .col-fourth i.fas{
+		font-size: 36px;
+	}
+	section.progress_bar .col-fourth h2{
+		font-size: 38px;
+	}
+	section.progress_bar .col-fourth p{
+		font-size: 16px;
+	}
+	section.client .logo{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	section.client .logo img{
+		margin: 20px 0 20px;
+		width: 140px;
+	}
+	footer .footer_flex{
+		display: block;
+	}
+	footer.footer .fotter_box img {
+   		width: 130px;
+   		margin: 45px 0 15px;
+	}
+	footer.footer .boxed .h4{
+		margin: 45px 0 15px;
+	}
+	footer.footer .footer_box .h4{
+		margin: 45px 0 15px;
+	}
+	footer.footer .img_box{
+		text-align: center;
+	}
+	footer.footer .img_box img{
+		padding: 15px;
+	}
+	footer.footer .bottom .footer_p{
+		line-height: 22px;
+	}
+}
+}
